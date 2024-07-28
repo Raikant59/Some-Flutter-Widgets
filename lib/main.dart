@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // INTERMEDIATE AND ADVANCED WIDGETS.
 
 
-      // This code is related to row and column.
+      // This code is related to row and column Widget.
       Container(
         width: 302,
         height: 130,
@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-      //This code is related to Inkwell widget.
+      //This code is related to Inkwell Widget.
       Center(
         child: InkWell(
           onTap: (){
@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-      // This code is related to Scrollview.
+      // This code is related to Scrollview Widget.
       Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
@@ -204,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-      // This code is related to Listview with ListTile.
+      // This code is related to Listview with ListTile Widget.
       ListView.separated(itemBuilder: (context, index){
         return ListTile(
           leading: Text('${index+1}'),
@@ -218,7 +218,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-      // This code is related to CircleAvatar.
+      // This code is related to CircleAvatar Widget.
       Center(
         child: CircleAvatar(
           child: Container(
@@ -246,7 +246,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-      // This Code is related to card widget.
+      // This Code is related to Card Widget.
       Center(child: Card(
         color: Colors.grey,
           shape: RoundedRectangleBorder(),
@@ -261,7 +261,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-      // This code is related to stack widget.
+      // This code is related to Stack Widget.
       Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
