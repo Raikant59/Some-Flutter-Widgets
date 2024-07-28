@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Text('My name is Raikant'),
+      body: const Text('My name is Raikant'),
 
       // BASIC & MAIN STRUCTURE WIDGETS
 
@@ -63,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
          // ElevatedButton(onPressed: (){ write logic here that you want to perform by using button }, child: // contain text widget here)
          // TextButton same format
          // OutlinedButton same format.
+      // 6. drawer: Drawer(), it is used to create drawer tab.
 
 
 
